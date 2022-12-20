@@ -83,6 +83,7 @@ const Pokedex = () => {
           <PokeCard key={poke.url} url={poke.url} />
         ))}
       </div>
+      <Pagination page={page} maxPage={maxPage} setPage={setPage} />
     </div>
   )
 }

@@ -3,6 +3,7 @@
   max-width: 340px;
   border-radius: 0.7em;
   border: 0.4em solid #87aa3d;
+  margin: 0.5rem;
 }
 
 .poke-card__header {
