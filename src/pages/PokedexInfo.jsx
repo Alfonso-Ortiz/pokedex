@@ -65,7 +65,7 @@ const PokedexInfo = () => {
           <h2 className='poke-info__stats-title'>Stats</h2>
           <ul className='poke-info__list'>
             {pokemon?.stats.map((stat) => (
-              <PokeStats key={stat.stat.name} stat={stat} />
+              <PokeStats key={stat.stat.name} stat={stat} pokemon={pokemon}/>
             ))}
           </ul>
         </section>

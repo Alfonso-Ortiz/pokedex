@@ -16,11 +16,10 @@
 }
 
 @media (min-width: 600px) {
-
-    .poke-move {
-        width: 150px;
-        height: 39px;
-    }
+  .poke-move {
+    width: 150px;
+    height: 39px;
+  }
 
   .poke-move__name {
     font-size: 18px;
