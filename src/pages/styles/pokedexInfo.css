@@ -1,4 +1,451 @@
+.poke-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.poke-card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+  align-items: center;
+  width: 390px;
+  max-width: 550px;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.5);
+}
+
+.poke-info__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+  position: relative;
+  margin-bottom: 1rem;
+}
+
 .poke-info__img {
-  width: 200px;
-  background-image: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+  width: 120px;
+  position: relative;
+  top: 0;
+  transform: translateY(-20%);
+}
+
+.poke-info__id{
+  margin: 1rem;
+}
+
+.poke-info__name{
+  margin-bottom: 1rem;
+  font-size: 26px;
+  text-transform: capitalize;
+}
+
+.poke-info__body {
+  display: flex;
+  gap: 2rem;
+}
+
+.poke-info__features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.poke-feature__name {
+  font-size: 14px;
+}
+
+.poke-feature__number {
+  font-size: 18px;
+}
+
+.poke-info__info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.poke-type{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.poke-type__title {
+  font-weight: 400;
+}
+
+.poke-type__info{
+  display: flex;
+  gap: 0.5rem;
+  color: white;
+}
+
+.poke-type__name{
+  width: 85px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.poke-abilities {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.poke-abilities__title{
+  font-weight: 400;
+}
+
+.poke-abilities__info{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.poke-abilities__name{
+  width: 85px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.1px solid #aaa5;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.poke-info__stats {
+  width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 4rem;
+}
+
+.poke-info__stats-title{
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.poke-info__move {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+  width: 400px;
+  max-width: 600px;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.5);
+}
+
+.poke-move__title {
+  align-self: flex-start;
+  margin: 2rem;
+  margin-right: 0;
+  font-weight: 500;
+  grid-column: span 3;
+}
+
+@media (min-width: 600px) {
+  .poke-card__info {
+    width: 500px;
+  }
+
+  .poke-info__header {
+    height: 90px;
+  }
+
+  .poke-info__img {
+    width: 155px;
+  }
+
+  .poke-info__id{
+    font-size: 28px;
+  }
+  
+  .poke-info__name{
+    font-size: 34px;
+  }
+  
+  .poke-feature__name {
+    font-size: 17px;
+  }
+  
+  .poke-type__title {
+    font-size: 28px;
+  }
+  
+  .poke-type__name{
+    width: 110px;
+    height: 30px;
+    font-size: 18px;
+  }
+
+  .poke-abilities__title {
+    font-size: 28px;
+  }
+  
+  .poke-abilities__name{
+    width: 110px;
+    height: 30px;
+    font-size: 18px;
+  }
+  
+  .poke-info__stats-title{
+    font-weight: 500;
+    font-size: 28px;
+  }
+  
+  .poke-info__move { 
+    width: 500px;
+    max-width: 600px;
+  }
+  
+  .poke-move__title {
+   font-size: 28px;
+  }
+}
+
+
+/* Bg y Colores */
+.bg-grass {
+  background-image: linear-gradient(
+    178.92deg,
+    #7ec6c5 0.92%,
+    #7ec6c5 47.96%,
+    #7ec6c5 99.08%
+  );
+}
+.bg-fire {
+  background-image: linear-gradient(
+    176.37deg,
+    #f96d6f -32.26%,
+    #f96d6f 22.55%,
+    #f96d6f 125.72%
+  );
+}
+
+.bg-water {
+  background-image: linear-gradient(
+    179.57deg,
+    #133258 -70.14%,
+    #133258 56.16%,
+    #133258 214.85%
+  );
+}
+
+.bg-bug {
+  background-image: linear-gradient(
+    177.56deg,
+    #62db60 -58.92%,
+    #62db60 16.57%,
+    #62db60 209.53%
+  );
+}
+
+.bg-normal {
+  background-image: linear-gradient(
+    181.51deg,
+    #735259 -6.44%,
+    #735259 121.95%,
+    #735259 186.11%
+  );
+}
+
+.bg-poison {
+  background-image: linear-gradient(
+    177.03deg,
+    #5b3184 -11.97%,
+    #5b3184 71.28%,
+    #5b3184 135.64%
+  );
+}
+
+.bg-electric {
+  background-image: linear-gradient(
+    176.37deg,
+    #d9ff00 -32.26%,
+    #d9ff00 22.55%,
+    #d9ff00 125.72%
+  );
+}
+
+.bg-ground {
+  background-image: linear-gradient(
+    179.75deg,
+    #654008 -19.96%,
+    #654008 43.67%,
+    #654008 138.4%
+  );
+}
+
+.bg-rock {
+  background-image: linear-gradient(
+    177.03deg,
+    #7e7e7e -11.97%,
+    #7e7e7e 57.49%,
+    #7e7e7e 135.64%
+  );
+}
+
+.bg-fighting {
+  background-image: linear-gradient(
+    176.83deg,
+    #96402a -8.78%,
+    #96402a 169.09%,
+    #96402a 242.33%
+  );
+}
+
+.bg-ghost {
+  background-image: linear-gradient(
+    177.03deg,
+    #323569 -11.97%,
+    #323569 57.49%,
+    #323569 135.64%
+  );
+}
+
+.bg-steel {
+  background-image: linear-gradient(
+    179.75deg,
+    #5e736c -19.96%,
+    #5e736c 43.67%,
+    #5e736c 138.4%
+  );
+}
+
+.bg-psychic {
+  background-image: linear-gradient(
+    179.75deg,
+    #23352e -19.96%,
+    #23352e 43.67%,
+    #23352e 138.4%
+  );
+}
+
+.bg-ice {
+  background-image: linear-gradient(
+    177.03deg,
+    #6fbedf -11.97%,
+    #6fbedf 47.77%,
+    #6fbedf 136.72%
+  );
+}
+
+.bg-dragon {
+  background-image: linear-gradient(
+    179.75deg,
+    #478a93 -19.96%,
+    #478a93 43.67%,
+    #478a93 138.4%
+  );
+}
+
+.bg-dark {
+  background-image: linear-gradient(
+    177.03deg,
+    #030706 -11.97%,
+    #030706 57.49%,
+    #030706 135.64%
+  );
+}
+
+.bg-fairy {
+  background-image: linear-gradient(
+    179.75deg,
+    #971b45 -19.96%,
+    #971b45 43.67%,
+    #971b45 138.4%
+  );
+}
+
+.color-grass {
+  color: #0c2e2a;
+}
+
+.color-fire {
+  color: #e6901e;
+}
+
+.color-normal {
+  color: #735259;
+}
+
+.color-fighting {
+  color: #96402A;
+}
+
+.color-poison {
+  color: #5B3184;
+}
+
+.color-ground {
+  color: #654008;
+}
+
+.color-rock {
+  color: #7E7E7E;
+}
+
+.color-bug {
+  color: #62DB60;
+}
+
+.color-ghost {
+  color: #323569;
+}
+
+.color-steel {
+  color: #5E736C;
+}
+
+.color-electric {
+  color: #c9b60ab7;
+}
+
+.color-psychic {
+  color: #08551dc5;
+}
+
+.color-ice {
+  color: #6FBEDF;
+}
+
+.color-water {
+  color: #83B9FF;
+}
+
+.color-dragon {
+  color: #478A93;
+}
+
+.color-dark {
+  color: #0B0E0D;
+}
+
+.color-fairy {
+  color: #971B45;
+}
+
+.color-grass {
+  color: #b1dbbc;
 }
