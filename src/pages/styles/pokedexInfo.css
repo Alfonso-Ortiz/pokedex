@@ -29,10 +29,11 @@
 }
 
 .poke-info__img {
-  width: 120px;
+  height: 125px;
+  width: 135px;
   position: relative;
   top: 0;
-  transform: translateY(-20%);
+  transform: translateY(-24%);
 }
 
 .poke-info__id{
@@ -91,12 +92,12 @@
 }
 
 .poke-type__name{
-  width: 85px;
-  height: 25px;
+  width: 110px;
+  height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -120,13 +121,13 @@
 }
 
 .poke-abilities__name{
-  width: 85px;
-  height: 25px;
+  width: 110px;
+  height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 0.1px solid #aaa5;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -174,7 +175,9 @@
   }
 
   .poke-info__img {
-    width: 155px;
+    height: 145px;
+    width: 150px;
+    transform: translateY(-20%);
   }
 
   .poke-info__id{
@@ -194,9 +197,9 @@
   }
   
   .poke-type__name{
-    width: 110px;
-    height: 30px;
-    font-size: 18px;
+    width: 130px;
+    height: 43px;
+    font-size: 20px;
   }
 
   .poke-abilities__title {
@@ -204,9 +207,9 @@
   }
   
   .poke-abilities__name{
-    width: 110px;
-    height: 30px;
-    font-size: 18px;
+    width: 130px;
+    height: 43px;
+    font-size: 20px;
   }
   
   .poke-info__stats-title{
@@ -217,6 +220,7 @@
   .poke-info__move { 
     width: 500px;
     max-width: 600px;
+    margin-bottom: 2rem;
   }
   
   .poke-move__title {

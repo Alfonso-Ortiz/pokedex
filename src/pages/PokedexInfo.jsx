@@ -48,15 +48,20 @@ const PokedexInfo = () => {
           <div className='poke-type'>
             <h2 className='poke-type__title'>Type</h2>
             <div className='poke-type__info'>
+              {/* {
+                pokemon?.type.map((type) => (
+                  <span className={`poke-type__name bg-${pokemon?.types[0].type.name}`}>{type.types[0].type.name}</span>
+                ))
+              } */}
               <span className={`poke-type__name bg-${pokemon?.types[0].type.name}`}>{pokemon?.types[0].type.name}</span>
-              <span className={`poke-type__name bg-${pokemon?.types[1].type.name}`}>{pokemon?.types[1].type.name}</span>
+              {/* <span className={`poke-type__name bg-${pokemon?.types[1].type.name}`}>{pokemon?.types[1].type.name}</span> */}
             </div>
           </div>
           <div className='poke-abilities'>
             <h2 className='poke-abilities__title'>Abilities</h2>
             <div className='poke-abilities__info'>
               <span className='poke-abilities__name'>{pokemon?.abilities[0].ability.name}</span>
-              <span className='poke-abilities__name'>{pokemon?.abilities[1].ability.name}</span>
+              {/* <span className='poke-abilities__name'>{pokemon?.abilities[1].ability.name}</span> */}
             </div>
           </div>
         </section>
