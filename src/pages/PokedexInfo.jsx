@@ -23,7 +23,7 @@ const PokedexInfo = () => {
   return (
     <article className="poke-info">
       <article className="poke-card__info">
-        <header className='poke-info__header'>
+        <header className={`poke-info__header bg-${pokemon?.types[0].type.name}`}>
           <img
             className="poke-info__img"
             src={pokemon?.sprites.other['official-artwork'].front_default}

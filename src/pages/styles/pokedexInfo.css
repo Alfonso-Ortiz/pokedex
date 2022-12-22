@@ -23,7 +23,6 @@
   align-items: center;
   width: 100%;
   height: 70px;
-  background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
   position: relative;
   margin-bottom: 1rem;
 }
@@ -234,16 +233,16 @@
   background-image: linear-gradient(
     178.92deg,
     #7ec6c5 0.92%,
-    #7ec6c5 47.96%,
-    #7ec6c5 99.08%
+    #abdac6 47.96%,
+    #cae099 99.08%
   );
 }
 .bg-fire {
   background-image: linear-gradient(
     176.37deg,
-    #E35825 -32.26%,
-    #E35825 22.55%,
-    #E35825 125.72%
+    #f96d6f -32.26%,
+    #e35825 22.55%,
+    #e8ae1b 125.72%
   );
 }
 
@@ -251,8 +250,8 @@
   background-image: linear-gradient(
     179.57deg,
     #133258 -70.14%,
-    #133258 56.16%,
-    #133258 214.85%
+    #1479fb 56.16%,
+    #82b2f1 214.85%
   );
 }
 
@@ -260,8 +259,8 @@
   background-image: linear-gradient(
     177.56deg,
     #62db60 -58.92%,
-    #62db60 16.57%,
-    #62db60 209.53%
+    #3bb039 16.57%,
+    #aaffa8 209.53%
   );
 }
 
@@ -269,8 +268,8 @@
   background-image: linear-gradient(
     181.51deg,
     #735259 -6.44%,
-    #735259 121.95%,
-    #735259 186.11%
+    #bc6b7c 121.95%,
+    #7c3f4c 186.11%
   );
 }
 
@@ -278,17 +277,17 @@
   background-image: linear-gradient(
     177.03deg,
     #5b3184 -11.97%,
-    #5b3184 71.28%,
-    #5b3184 135.64%
+    #a564e3 71.28%,
+    #ce9bff 135.64%
   );
 }
 
 .bg-electric {
   background-image: linear-gradient(
     176.37deg,
-    #c9b60ab7 -32.26%,
-    #c9b60ab7 22.55%,
-    #c9b60ab7 125.72%
+    #d9ff00 -32.26%,
+    #3d3836 22.55%,
+    #f7bd00 125.72%
   );
 }
 
@@ -296,8 +295,8 @@
   background-image: linear-gradient(
     179.75deg,
     #654008 -19.96%,
-    #654008 43.67%,
-    #654008 138.4%
+    #895c1a 43.67%,
+    #d69638 138.4%
   );
 }
 
@@ -305,8 +304,8 @@
   background-image: linear-gradient(
     177.03deg,
     #7e7e7e -11.97%,
-    #7e7e7e 57.49%,
-    #7e7e7e 135.64%
+    #8d8d94 57.49%,
+    #d3d3d3 135.64%
   );
 }
 
@@ -314,8 +313,8 @@
   background-image: linear-gradient(
     176.83deg,
     #96402a -8.78%,
-    #96402a 169.09%,
-    #96402a 242.33%
+    #f1613c 169.09%,
+    #cb735d 242.33%
   );
 }
 
@@ -323,8 +322,8 @@
   background-image: linear-gradient(
     177.03deg,
     #323569 -11.97%,
-    #323569 57.49%,
-    #323569 135.64%
+    #454aa8 57.49%,
+    #787dda 135.64%
   );
 }
 
@@ -332,8 +331,8 @@
   background-image: linear-gradient(
     179.75deg,
     #5e736c -19.96%,
-    #5e736c 43.67%,
-    #5e736c 138.4%
+    #728881 43.67%,
+    #a8a8a8 138.4%
   );
 }
 
@@ -341,8 +340,8 @@
   background-image: linear-gradient(
     179.75deg,
     #23352e -19.96%,
-    #23352e 43.67%,
-    #23352e 138.4%
+    #094433 43.67%,
+    #a39f9f 138.4%
   );
 }
 
@@ -350,8 +349,8 @@
   background-image: linear-gradient(
     177.03deg,
     #6fbedf -11.97%,
-    #6fbedf 47.77%,
-    #6fbedf 136.72%
+    #64cbf5 47.77%,
+    #bdebfe 136.72%
   );
 }
 
@@ -359,8 +358,8 @@
   background-image: linear-gradient(
     179.75deg,
     #478a93 -19.96%,
-    #478a93 43.67%,
-    #478a93 138.4%
+    #56a4ae 43.67%,
+    #a2bec1 138.4%
   );
 }
 
@@ -368,8 +367,8 @@
   background-image: linear-gradient(
     177.03deg,
     #030706 -11.97%,
-    #030706 57.49%,
-    #030706 135.64%
+    #0d1211 57.49%,
+    #5a5e5d 135.64%
   );
 }
 
@@ -377,8 +376,8 @@
   background-image: linear-gradient(
     179.75deg,
     #971b45 -19.96%,
-    #971b45 43.67%,
-    #971b45 138.4%
+    #c23867 43.67%,
+    #cd7d98 138.4%
   );
 }
 
